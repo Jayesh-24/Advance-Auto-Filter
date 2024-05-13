@@ -23,13 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
+                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/MoviesWorldBkp')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
-            ],
-            [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/vjbots_bot')
+                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/Jayesh_19')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,19 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
-                                 url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
             InlineKeyboardButton(
-                '🔍 Group 🔍', url='https://t.me/vJ_botz'),
+                '🔍 Group 🔍', url='https://t.me/MoviesWorldBkp'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/VJ_Bots')
+                '🤖 Updates', url='https://t.me/MoviesWorldBkp')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -97,19 +88,14 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
-                                 url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton(
-                '🏆 Group 🏆', url='https://t.me/neha_movie_request'),
-            InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/vj_bots')
-        ], [
+            InlineKeyboardButton('📣 Join our Main Channel 📣',
+                                 url=f'https://t.me/MoviesWorldBkp')
+        ],[
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('👨‍💻 My Owner 👨‍💻',
+                                 url=f'https://t.me/Jayesh_19')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -159,10 +145,9 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                         [InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/MoviesWorldBkp')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          InlineKeyboardButton("👨‍💻 Bᴏᴛ Oᴡɴᴇʀ 👨‍💻", url="t.me/Jayesh_19")
                          ]
                         ]
                     )
@@ -177,10 +162,9 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                         [InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/MoviesWorldBkp')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          InlineKeyboardButton("👨‍💻 Bᴏᴛ Oᴡɴᴇʀ 👨‍💻", url="t.me/Jayesh_19")
                          ]
                         ]
                     )
@@ -248,10 +232,9 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/MoviesWorldBkp')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          InlineKeyboardButton("👨‍💻 Bᴏᴛ Oᴡɴᴇʀ 👨‍💻", url="t.me/Jayesh_19")
                          ]
                         ]
                     )
@@ -291,10 +274,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                          [
-                          InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_bot_disscussion'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/vj_bots')
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/MoviesWorldBkp')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/VJBots_bot")
+                          InlineKeyboardButton("👨‍💻 Bᴏᴛ Oᴡɴᴇʀ 👨‍💻", url="t.me/Jayesh_19")
                          ]
                         ]
                     )
