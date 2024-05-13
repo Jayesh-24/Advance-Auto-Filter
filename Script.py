@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>👋 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> \n I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ 😇. \n <a href=https://t.me/Jayesh_19><b>⚡ My Owner ⚡</b></a>\n "
+    START_TXT = "<b>👋 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> \n \n I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ 😇. \n <a href=https://t.me/Jayesh_19><b>\n "
 
     HELP_TXT = """<b>Hᴇʏ {}
 You can checkout more Features of this bot here
