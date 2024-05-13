@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>👋 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> \n I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ 😇. \n⚡ <a href=https://t.me/Jayesh_19><b>⚡ My Owner ⚡</b></a>\n "
+    START_TXT = "<b>👋 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> \n I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Sᴇʀɪᴇs, Aɴɪᴍᴀᴛɪᴏɴ, Cᴀʀᴛᴏᴏɴ, Aɴɪᴍᴇ, K-Dʀᴀᴍᴀ & Mᴀɴʏ Mᴏʀᴇ 😇. \n <a href=https://t.me/Jayesh_19><b>⚡ My Owner ⚡</b></a>\n "
 
     HELP_TXT = """<b>Hᴇʏ {}
 You can checkout more Features of this bot here
@@ -91,7 +91,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
  /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ</code>
  /request - <code>Tᴏ sᴇɴᴅ ᴀ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. Oɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.</code>"""
 
-    STATUS_TXT = """<b>😁 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+    STATUS_TXT = """<b>📁 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 👤 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 👥 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ✨ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
