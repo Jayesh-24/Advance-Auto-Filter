@@ -123,7 +123,7 @@ Nᴀᴍᴇ - {}"""
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
     OWNER_INFO = """
-<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+<b>⚡️───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⚡️
     
  ɴᴀᴍᴇ : Jayesh
  ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Jayesh_19'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
@@ -156,7 +156,7 @@ Owner Will Update The Movie Within 24Hour"""
 """
 
     NORSLTS = """
-⚡️ #Auto_Request ★
+⚡️ #Auto_Request 
 
 🔆 <b>Request</b> : 🎗️`{}`🎗️
 ⚡️ <b>Requested By : {}</b>
