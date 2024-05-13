@@ -91,7 +91,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
  /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ</code>
  /request - <code>Tᴏ sᴇɴᴅ ᴀ ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. Oɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ.</code>"""
 
-    STATUS_TXT = """<b>📁 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+    STATUS_TXT = """<b>😁 Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 👤 Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 👥 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ✨ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
