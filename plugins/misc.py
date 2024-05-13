@@ -21,7 +21,7 @@ async def about(client, message):
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
 
     await message.reply_text(
-    ABOUT_TXT,
+    about_txt,
     parse_mode="HTML",
     quote=True
 )
