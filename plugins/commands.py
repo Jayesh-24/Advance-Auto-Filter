@@ -98,13 +98,14 @@ async def start(client, message):
                                  url=f'https://t.me/Jayesh_19')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        reply_markup = InlineKeyboardMarkup(buttons)
-await message.reply(
-    text=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-    reply_markup=reply_markup,
-    parse_mode=enums.ParseMode.HTML
-)
-return
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+        return
+
 
     data = message.command[1]
     try:
