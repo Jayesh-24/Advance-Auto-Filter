@@ -23,10 +23,13 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/MoviesWorldBkp')
+                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
             ],
             [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/Jayesh_19')
+                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
+            ],
+            [
+                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/vjbots_bot')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -52,15 +55,18 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+        ], [
+            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
+                                 url=f'https://youtube.com/@Tech_VJ')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_message(
-        message.chat.id,
-        caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
-    return
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+        return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
@@ -90,31 +96,29 @@ async def start(client, message):
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-    buttons = [[
-        InlineKeyboardButton('➕ Add Me To Your Groups ➕',
-                             url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-    ], [
-        InlineKeyboardButton(
-            '🏆 Group 🏆', url='https://t.me/neha_movie_request'),
-        InlineKeyboardButton(
-            '📣 Updates 📣', url='https://t.me/vj_bots')
-    ], [
-        InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
-    ], [
-        InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                             url=f'https://youtube.com/@Tech_VJ')
-    ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await client.send_message(
-        message.chat.id,
-        caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
-    return
-
-
+        buttons = [[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
+                                 url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton(
+                '🏆 Group 🏆', url='https://t.me/neha_movie_request'),
+            InlineKeyboardButton(
+                '📣 Updates 📣', url='https://t.me/vj_bots')
+        ], [
+            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+        ], [
+            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
+                                 url=f'https://youtube.com/@Tech_VJ')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+        return
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
@@ -793,3 +797,4 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'shortlink_api', api)
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>⚡ Successfully Added Shortlink API For {title}.\n\n🔗 Current Shortlink Website: <code>{shortlink_url}</code>\n📣 Current API: <code>{api}</code></b>")
+
