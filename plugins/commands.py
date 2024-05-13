@@ -23,13 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
+                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/MoviesWorldBkp')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
-            ],
-            [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/vjbots_bot')
+                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/Jayesh_19')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -55,13 +52,10 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
-        ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
-            photo=random.choice(PICS),
+            # photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
