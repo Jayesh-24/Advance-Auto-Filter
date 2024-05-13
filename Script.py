@@ -14,7 +14,7 @@ You can checkout more Features of this bot here
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is Private Project
-✅ Oᴡɴᴇʀ : <a href=https://t.me/Jayesh_19><b>👨‍💻 Jayesh 👨‍💻</b></a>\n""""""
+✅ Oᴡɴᴇʀ : <a href=https://t.me/Jayesh_19><b>👨‍💻 Jayesh 👨‍💻</b></a>\n"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
