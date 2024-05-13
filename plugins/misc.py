@@ -10,6 +10,23 @@ import logging
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
+# Define the /about command
+@Client.on_message(filters.command(["about"]))
+async def about(client, message):
+    about_text = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/AutoFilter1bot><b>Auto Filter Bot</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/Jayesh_19><b>👨‍💻 Jayesh 👨‍💻</b></a>\n
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+
+    await message.reply_text(
+        about_text,
+        parse_mode="HTML",
+        disable_web_page_preview=True
+    )
+
+
 @Client.on_message(filters.command('id'))
 async def showid(client, message):
     chat_type = message.chat.type
