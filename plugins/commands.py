@@ -43,12 +43,14 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton(
-                '🔍 Group 🔍', url='https://t.me/MoviesWorldBkp'),
-            InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/MoviesWorldBkp')
+                'Join our Main Channel ⚡️', url='https://t.me/MoviesWorldBkp')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+        ],
+        [
+            InlineKeyboardButton('👨‍💻 My Owner 👨‍💻',
+                                 url=f'https://t.me/Jayesh_19')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
