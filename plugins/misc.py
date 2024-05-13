@@ -21,11 +21,10 @@ async def about(client, message):
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
 
     await message.reply_text(
-        about_text,
-        parse_mode="Markdown",
-        disable_web_page_preview=True
-    )
-
+    ABOUT_TXT,
+    parse_mode="HTML",
+    quote=True
+)
 
 @Client.on_message(filters.command('id'))
 async def showid(client, message):
