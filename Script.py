@@ -12,6 +12,14 @@ You can checkout more Features of this bot here
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
 
+    about_txt = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/AutoFilter1bot><b>Auto Filter Bot</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/Jayesh_19><b>👨‍💻 Jayesh 👨‍💻</b></a>\n
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+
+    
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is Private Project
 ✅ Oᴡɴᴇʀ : <a href=https://t.me/Jayesh_19><b>👨‍💻 Jayesh 👨‍💻</b></a>\n"""
