@@ -22,7 +22,7 @@ async def about(client, message):
 
     await message.reply_text(
     about_text,
-    parse_mode="html",
+    parse_mode="markdown",
     quote=True
 )
 
