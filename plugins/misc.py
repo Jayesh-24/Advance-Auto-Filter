@@ -22,7 +22,7 @@ async def about(client, message):
 
     await message.reply_text(
     about_text,
-    parse_mode=enums.ParseMode.HTML
+    parse_mode=enums.ParseMode.HTML,
     quote=True
 )
 
