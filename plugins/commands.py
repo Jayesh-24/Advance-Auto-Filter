@@ -44,9 +44,6 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton(
                 'Join our Main Channel ⚡️', url='https://t.me/MoviesWorldBkp')
-        ], [
-            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ],
         [
             InlineKeyboardButton('👨‍💻 My Owner 👨‍💻',
